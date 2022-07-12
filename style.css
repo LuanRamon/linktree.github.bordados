@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font-family 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 25px;
+    background: #010101;
+}
+.avatar{
+    margin-left: 30px;
+    width: 200px;
+    border-radius: 100px;
+    border: solid white;
+    box-shadow: 0 0 20px white;
+}
+h1{
+    margin-left: 30px;
+    font-family: font-family 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    color: #fff;
+}
+.profile{
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.box{
+   width: 65px;
+   height: 68px;
+   display: flex;
+   align-items: center;
+   padding: 5px;
+   margin: 0.6rem;
+   position: relative;
+   overflow: hidden;
+   cursor: pointer;
+   transition: all .3s ease;
+}
+.box:hover{
+    width: 200px;
+    background: #c32aa3;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow: 0 0 50px #b315917c;
+}
+
+.box:nth-child(2):hover{
+    background: #25d366;
+    box-shadow: 0 0 50px #25d3657e;
+}
+.box:nth-child(3):hover{
+    background: #1b69df;
+    box-shadow: 0 0 50px #1876f285;
+}
+.box:nth-child(4):hover{
+    background: #1da1f2;
+    box-shadow: 0 0 50px #1da1f280;
+}
+.navbar p{
+    transform: translate(60px);
+}
+.box .icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .3s ease;
+}
+.instagram{
+    background-color: #c32aa3;
+}
+.whatsapp{
+    background-color: #4ee4857e;
+}
+.facebook{
+    background-color: #1b69df;
+}
+.catálago{
+    background-color: #3c92cc;
+}
+.box:hover .icon{
+    background-color: #fff;
+    color: #332c2c;
+    box-shadow: 0 0 20px rgb(0,0,0,0.26);
+}
